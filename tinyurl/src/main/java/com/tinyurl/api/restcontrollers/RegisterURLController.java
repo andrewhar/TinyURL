@@ -2,14 +2,10 @@ package com.tinyurl.api.restcontrollers;
 
 
 
-import com.tinyurl.api.model.URL;
-import com.tinyurl.api.repository.OrgURLRepository;
-import com.tinyurl.api.repository.TinyURLRepository;
-import com.tinyurl.api.repository.URLRepository;
 import com.tinyurl.api.restcontrollers.dto.URLRequest;
 import com.tinyurl.api.restcontrollers.dto.URLResponse;
-import com.tinyurl.api.service.urldel.DeleteURLService;
-import com.tinyurl.api.service.urlregistration.RegisterURLService;
+import com.tinyurl.api.component.urldel.DeleteURLService;
+import com.tinyurl.api.service.RegisterURLService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
